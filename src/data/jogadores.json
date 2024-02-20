@@ -1,0 +1,209 @@
+{
+  "jogadores": [
+    {
+      "nome": "Carlos Miguel",
+      "posicao": "Goleiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/carlos-miguel-dos-santos-pereira-no-corinthians_2g.jpg"
+    },
+    {
+      "nome": "Cássio",
+      "posicao": "Goleiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/cassio-ramos-no-corinthians_1g.jpg"
+    },
+    {
+      "nome": "Felipe Longo",
+      "posicao": "Goleiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/felipe-longo-fernandes-da-silva-no-corinthians_cg.jpg"
+    },
+    {
+      "nome": "Matheus Donelli",
+      "posicao": "Goleiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/matheus-planelles-donelli-no-corinthians_jg.jpg"
+    },
+    {
+      "nome": "Matheus Roger",
+      "posicao": "Goleiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/matheus-roger-costa-silva-no-corinthians_pg.jpg"
+    },
+    {
+      "nome": "Diego Palácios",
+      "posicao": "Lateral",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/diego-jose-palacios-espinoza-no-corinthians_2g.jpg"
+    },
+    {
+      "nome": "Hugo",
+      "posicao": "Lateral",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/hugo-ferreira-de-farias-no-corinthians_pg.jpg"
+    },
+    {
+      "nome": "Matheus Bidu",
+      "posicao": "Lateral",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/matheus-lima-beltrao-oliveira-no-corinthians_rg.jpg"
+    },
+    {
+      "nome": "Vitor Meer",
+      "posicao": "Lateral",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/vitor-alves-meer-no-corinthians_ug.jpg"
+    },
+    {
+      "nome": "Daniel Marcos",
+      "posicao": "Lateral",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/daniel-marcos-meira-novaes-no-corinthians_gg.jpg"
+    },
+    {
+      "nome": "Fagner",
+      "posicao": "Lateral",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/fagner-conserva-lemos-no-corinthians_8g.jpg"
+    },
+    {
+      "nome": "Léo Mana",
+      "posicao": "Lateral",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/leonardo-mana-hernandes-no-corinthians_8g.jpg"
+    },
+    {
+      "nome": "Matheus França",
+      "posicao": "Lateral",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/matheus-franca-da-silva-no-corinthians_6g.jpg"
+    },
+    {
+      "nome": "Caetano",
+      "posicao": "Zagueiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/joao-victor-andrade-caetano-no-corinthians_jg.jpg"
+    },
+    {
+      "nome": "Félix Torres",
+      "posicao": "Zagueiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/felix-eduardo-torres-caicedo-no-corinthians_10g.jpg"
+    },
+    {
+      "nome": "Gustavo Henrique",
+      "posicao": "Zagueiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/gustavo-henrique-vernes-no-corinthians_zg.jpg"
+    },
+    {
+      "nome": "João Pedro",
+      "posicao": "Zagueiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/joao-pedro-de-sousa-rodrigues-no-corinthians_xg.jpg"
+    },
+    {
+      "nome": "Raul Gustavo",
+      "posicao": "Zagueiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/raul-gustavo-pereira-bicalho-no-corinthians_5g.jpg"
+    },
+    {
+      "nome": "Fausto Vera",
+      "posicao": "Volante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/fausto-mariano-vera-no-corinthians_og.jpg"
+    },
+    {
+      "nome": "Gabriel Moscardo",
+      "posicao": "Volante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/gabriel-silva-moscardo-de-salles-no-corinthians_dg.jpg"
+    },
+    {
+      "nome": "Maycon",
+      "posicao": "Volante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/maycon-de-andrade-barberan-no-corinthians_8g.jpg"
+    },
+    {
+      "nome": "Paulinho",
+      "posicao": "Volante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/jose-paulo-bezerra-maciel-junior-no-corinthians_lg.jpg"
+    },
+    {
+      "nome": "Raniele",
+      "posicao": "Volante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/raniele-almeida-melo-no-corinthians_gg.jpg"
+    },
+    {
+      "nome": "Ryan",
+      "posicao": "Volante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/ryan-gustavo-de-lima-no-corinthians_10g.jpg"
+    },
+    {
+      "nome": "Yago",
+      "posicao": "Volante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/yago-kaua-rodrigues-goncalves-no-corinthians_vg.jpg"
+    },
+    {
+      "nome": "Guilherme Biro",
+      "posicao": "Meia",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/guilherme-sucigan-mafra-cunha-no-corinthians_sg.jpg"
+    },
+    {
+      "nome": "Breno Bidon",
+      "posicao": "Meia",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/breno-de-souza-bidon-no-corinthians_xg.jpg"
+    },
+    {
+      "nome": "Matheus Araujo",
+      "posicao": "Meia",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/matheus-de-araujo-andrade-no-corinthians_qg.jpg"
+    },
+    {
+      "nome": "Matias Rojas",
+      "posicao": "Meia",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/matias-nicolas-rojas-romero-no-corinthians_lg.jpg"
+    },
+    {
+      "nome": "Rodrigo Garro",
+      "posicao": "Meia",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/rodrigo-garro-no-corinthians_sg.jpg"
+    },
+    {
+      "nome": "Igor Coronado",
+      "posicao": "Meia",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/igor-caique-coronado-no-corinthians_ug.jpg"
+    },
+    {
+      "nome": "Wesley",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/wesley-gassova-ribeiro-teixeira-no-corinthians_fg.jpg"
+    },
+    {
+      "nome": "Arthur Sousa",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/arthur-sousa-araujo-no-corinthians_ng.jpg"
+    },
+    {
+      "nome": "Giovane",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/giovane-santana-do-nascimento-no-corinthians_kg.jpg"
+    },
+    {
+      "nome": "Gustavo Silva",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/gustavo-henric-da-silva-no-corinthians_gg.jpg"
+    },
+    {
+      "nome": "Kayke",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/kayke-ferrari-guimaraes-no-corinthians_hg.jpg"
+    },
+    {
+      "nome": "Pedro Henrique",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/pedro-henrique-konzen-medina-da-silva-no_dg.jpg"
+    },
+    {
+      "nome": "Pedro Raul",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/pedro-raul-garay-da-silva-no-corinthians_2g.jpg"
+    },
+    {
+      "nome": "Romero",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/angel-rodrigo-romero-villamayor-no-corinthians_wg.jpg"
+    },
+    {
+      "nome": "Ruan Oliveira",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/ruan-de-oliveira-ferreira-no-corinthians_bg.jpg"
+    },
+    {
+      "nome": "Yuri Alberto",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/yuri-alberto-monteiro-da-silva-no-corinthians_cg.jpg"
+    }
+  ]
+}
