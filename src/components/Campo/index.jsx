@@ -1,31 +1,43 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { GrPowerReset } from "react-icons/gr";
+
 import Modal from 'react-modal';
 import playersData from '../../data/jogadores.json'
 
 Modal.setAppElement('#root');
 
 import './Campo.css';
+import { recuperarDados, salvarDados } from '../../utils/storage';
+
+const defaultData = [
+  { id: 1, nome: '1', posX: 50, posY: 350, foto: '' },
+  { id: 2, nome: '6', posX: 350, posY: 100, foto: '' },
+  { id: 3, nome: '3', posX: 250, posY: 250, foto: '' },
+  { id: 4, nome: '4', posX: 250, posY: 450, foto: '' },
+  { id: 5, nome: '2', posX: 350, posY: 600, foto: '' },
+  { id: 6, nome: '5', posX: 450, posY: 350, foto: '' },
+  { id: 7, nome: '8', posX: 650, posY: 200, foto: '' },
+  { id: 8, nome: '10', posX: 650, posY: 500, foto: '' },
+  { id: 9, nome: '7', posX: 850, posY: 100, foto: '' },
+  { id: 10, nome: '9', posX: 950, posY: 350, foto: '' },
+  { id: 11, nome: '11', posX: 850, posY: 600, foto: '' },
+]
 
 const Campo = () => {
-  const [jogadores, setJogadores] = useState([
-    { id: 1, nome: '1', posX: 50, posY: 350, foto: '' },
-    { id: 2, nome: '6', posX: 350, posY: 100, foto: '' },
-    { id: 3, nome: '3', posX: 250, posY: 250, foto: '' },
-    { id: 4, nome: '4', posX: 250, posY: 450, foto: '' },
-    { id: 5, nome: '2', posX: 350, posY: 600, foto: '' },
-    { id: 6, nome: '5', posX: 450, posY: 350, foto: '' },
-    { id: 7, nome: '8', posX: 650, posY: 200, foto: '' },
-    { id: 8, nome: '10', posX: 650, posY: 500, foto: '' },
-    { id: 9, nome: '7', posX: 850, posY: 100, foto: '' },
-    { id: 10, nome: '9', posX: 950, posY: 350, foto: '' },
-    { id: 11, nome: '11', posX: 850, posY: 600, foto: '' },
-  ]);
+  const [jogadores, setJogadores] = useState([...defaultData]);
 
   const [todosJogadores] = useState([...playersData.jogadores])
   const [jogadorSubstituir, setJogadorSubstituir] = useState(0)
 
 
   const [modalIsOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    let dadossalvos = recuperarDados("escalando-corinthians-app")
+    if (dadossalvos) {
+      setJogadores([...dadossalvos])
+    }
+  }, [])
 
   function fecharModal() {
     setIsOpen(false);
@@ -53,6 +65,10 @@ const Campo = () => {
       novoJogadores[jogadorIndex].posY = posY;
 
       setJogadores(novoJogadores);
+
+      if (novoJogadores.length > 0) {
+        salvarDados("escalando-corinthians-app", novoJogadores)
+      }
     }
   };
 
@@ -63,6 +79,11 @@ const Campo = () => {
   const exibirModal = (id_jogador) => {
     setJogadorSubstituir(id_jogador)
     setIsOpen(true)
+  }
+
+  const resetData = () => {
+    setJogadores([...defaultData])
+    salvarDados("escalando-corinthians-app", defaultData)
   }
 
 
@@ -78,6 +99,9 @@ const Campo = () => {
     })
 
     setJogadores([...jogadoresAux])
+    if (jogadoresAux.length > 0) {
+      salvarDados("escalando-corinthians-app", jogadoresAux)
+    }
     setIsOpen(false)
   }
 
@@ -93,7 +117,21 @@ const Campo = () => {
       height: '100vh',
       color: "#FFF"
     }}>
-      <h1>ESCALE SEU CORINTHIANS</h1>
+      <div style={{display: 'flex', flexDirection: 'row', gap: '20px', alignItems: 'center'}}>
+        <h1>ESCALE SEU CORINTHIANS</h1>
+
+        <button 
+          onClick={() => resetData()}
+          style={{
+            width: '40px', 
+            height: '40px', 
+            borderRadius: '20px', 
+            display: 'flex', 
+            alignItems: 'center', 
+            justifyContent: 'center', 
+            borderWidth: '0px'
+            }}><GrPowerReset /></button>
+      </div>
       <div
         className="campo-de-futebol"
         onDrop={handleDrop}

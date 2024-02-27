@@ -1,31 +1,42 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import playersData from '../../data/jogadores.json'
+
 
 Modal.setAppElement('#root');
 
 import './CampoMobile.css';
+import { recuperarDados, salvarDados } from '../../utils/storage';
+
+const defaultData = [
+  { id: 1, nome: '1', posX: 175, posY: 525, foto: '' },
+  { id: 2, nome: '6', posX: 50, posY: 375, foto: '' },
+  { id: 3, nome: '3', posX: 125, posY: 450, foto: '' },
+  { id: 4, nome: '4', posX: 250, posY: 450, foto: '' },
+  { id: 5, nome: '2', posX: 300, posY: 375, foto: '' },
+  { id: 6, nome: '5', posX: 175, posY: 325, foto: '' },
+  { id: 7, nome: '8', posX: 50, posY: 225, foto: '' },
+  { id: 8, nome: '10', posX: 300, posY: 225, foto: '' },
+  { id: 9, nome: '7', posX: 50, posY: 100, foto: '' },
+  { id: 10, nome: '9', posX: 175, posY: 125, foto: '' },
+  { id: 11, nome: '11', posX: 300, posY: 100, foto: '' },
+]
 
 const CampoMobile = () => {
-  const [jogadores, setJogadores] = useState([
-    { id: 1, nome: '1', posX: 175, posY: 525, foto: '' },
-    { id: 2, nome: '6', posX: 50, posY: 375, foto: '' },
-    { id: 3, nome: '3', posX: 125, posY: 450, foto: '' },
-    { id: 4, nome: '4', posX: 250, posY: 450, foto: '' },
-    { id: 5, nome: '2', posX: 300, posY: 375, foto: '' },
-    { id: 6, nome: '5', posX: 175, posY: 325, foto: '' },
-    { id: 7, nome: '8', posX: 50, posY: 225, foto: '' },
-    { id: 8, nome: '10', posX: 300, posY: 225, foto: '' },
-    { id: 9, nome: '7', posX: 50, posY: 100, foto: '' },
-    { id: 10, nome: '9', posX: 175, posY: 125, foto: '' },
-    { id: 11, nome: '11', posX: 300, posY: 100, foto: '' },
-  ]);
+  const [jogadores, setJogadores] = useState([...defaultData]);
 
   const [todosJogadores] = useState([...playersData.jogadores])
   const [jogadorSubstituir, setJogadorSubstituir] = useState(0)
 
 
   const [modalIsOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    let dadossalvos = recuperarDados("escalando-corinthians-app")
+    if (dadossalvos) {
+      setJogadores([...dadossalvos])
+    }
+  }, [])
 
   function fecharModal() {
     setIsOpen(false);
@@ -53,6 +64,10 @@ const CampoMobile = () => {
       novoJogadores[jogadorIndex].posY = posY;
 
       setJogadores(novoJogadores);
+
+      if (novoJogadores.length > 0) {
+        salvarDados("escalando-corinthians-app", novoJogadores)
+      }
     }
   };
 
@@ -94,6 +109,7 @@ const CampoMobile = () => {
     }
   };
 
+
   const handleTouchEnd = (id) => {
     const jogadorIndex = jogadores.findIndex((jogador) => jogador.id === id);
 
@@ -123,6 +139,9 @@ const CampoMobile = () => {
     })
 
     setJogadores([...jogadoresAux])
+    if (jogadoresAux.length > 0) {
+      salvarDados("escalando-corinthians-app", jogadoresAux)
+    }
     setIsOpen(false)
   }
 
@@ -139,7 +158,6 @@ const CampoMobile = () => {
       color: "#FFF",
       fontSize: '10px'
     }}>
-      <h1>ESCALE SEU CORINTHIANS</h1>
       <div
         className="campo-de-futebol-mobile"
         onDrop={handleDrop}
