@@ -66,6 +66,11 @@
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/matheus-franca-da-silva-no-corinthians_6g.jpg"
     },
     {
+      "nome": "Cacá",
+      "posicao": "Zagueiro",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/carlos-de-menezes-junior-no-corinthians_7g.jpg"
+    },    
+    {
       "nome": "Caetano",
       "posicao": "Zagueiro",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/joao-victor-andrade-caetano-no-corinthians_jg.jpg"
@@ -139,11 +144,6 @@
       "nome": "Matheus Araujo",
       "posicao": "Meia",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/matheus-de-araujo-andrade-no-corinthians_qg.jpg"
-    },
-    {
-      "nome": "Matias Rojas",
-      "posicao": "Meia",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/matias-nicolas-rojas-romero-no-corinthians_lg.jpg"
     },
     {
       "nome": "Rodrigo Garro",
