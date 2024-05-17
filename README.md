@@ -1,8 +1,14 @@
-# React + Vite
+# Escalando
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This is a project developed in ReactJs + Vite
 
-Currently, two official plugins are available:
+- Simulates a lineup board, initially contains the Corinthians lineup, but can be adapted for any football club
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Running
+
+- First run "npm install" command to install the dependencies
+
+- Lastly run "npm run dev"  on the terminal to start
+
+
+Visit Now: [Netlify App](https://escalandocorinthians.netlify.app/)
