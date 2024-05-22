@@ -6,11 +6,6 @@
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/carlos-miguel-dos-santos-pereira-no-corinthians_2g.jpg"
     },
     {
-      "nome": "Cássio",
-      "posicao": "Goleiro",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/cassio-ramos-no-corinthians_1g.jpg"
-    },
-    {
       "nome": "Felipe Longo",
       "posicao": "Goleiro",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/felipe-longo-fernandes-da-silva-no-corinthians_cg.jpg"
@@ -39,16 +34,6 @@
       "nome": "Matheus Bidu",
       "posicao": "Lateral",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/matheus-lima-beltrao-oliveira-no-corinthians_rg.jpg"
-    },
-    {
-      "nome": "Vitor Meer",
-      "posicao": "Lateral",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/vitor-alves-meer-no-corinthians_ug.jpg"
-    },
-    {
-      "nome": "Daniel Marcos",
-      "posicao": "Lateral",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/daniel-marcos-meira-novaes-no-corinthians_gg.jpg"
     },
     {
       "nome": "Fagner",
@@ -126,11 +111,6 @@
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/ryan-gustavo-de-lima-no-corinthians_10g.jpg"
     },
     {
-      "nome": "Yago",
-      "posicao": "Volante",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/yago-kaua-rodrigues-goncalves-no-corinthians_vg.jpg"
-    },
-    {
       "nome": "Guilherme Biro",
       "posicao": "Meia",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/guilherme-sucigan-mafra-cunha-no-corinthians_sg.jpg"
@@ -174,11 +154,6 @@
       "nome": "Gustavo Silva",
       "posicao": "Atacante",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/gustavo-henric-da-silva-no-corinthians_gg.jpg"
-    },
-    {
-      "nome": "Kayke",
-      "posicao": "Atacante",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/kayke-ferrari-guimaraes-no-corinthians_hg.jpg"
     },
     {
       "nome": "Pedro Henrique",
