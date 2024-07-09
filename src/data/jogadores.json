@@ -1,11 +1,6 @@
 {
   "jogadores": [
     {
-      "nome": "Carlos Miguel",
-      "posicao": "Goleiro",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/carlos-miguel-dos-santos-pereira-no-corinthians_2g.jpg"
-    },
-    {
       "nome": "Felipe Longo",
       "posicao": "Goleiro",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/felipe-longo-fernandes-da-silva-no-corinthians_cg.jpg"
@@ -46,7 +41,7 @@
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/leonardo-mana-hernandes-no-corinthians_8g.jpg"
     },
     {
-      "nome": "Matheus França",
+      "nome": "Matheuzinho",
       "posicao": "Lateral",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/matheus-franca-da-silva-no-corinthians_6g.jpg"
     },
@@ -76,19 +71,9 @@
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/joao-pedro-de-sousa-rodrigues-no-corinthians_xg.jpg"
     },
     {
-      "nome": "Raul Gustavo",
-      "posicao": "Zagueiro",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/raul-gustavo-pereira-bicalho-no-corinthians_5g.jpg"
-    },
-    {
       "nome": "Fausto Vera",
       "posicao": "Volante",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/fausto-mariano-vera-no-corinthians_og.jpg"
-    },
-    {
-      "nome": "Gabriel Moscardo",
-      "posicao": "Volante",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/gabriel-silva-moscardo-de-salles-no-corinthians_dg.jpg"
     },
     {
       "nome": "Maycon",
@@ -136,19 +121,9 @@
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/wesley-gassova-ribeiro-teixeira-no-corinthians_fg.jpg"
     },
     {
-      "nome": "Arthur Sousa",
-      "posicao": "Atacante",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/arthur-sousa-araujo-no-corinthians_ng.jpg"
-    },
-    {
       "nome": "Giovane",
       "posicao": "Atacante",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/giovane-santana-do-nascimento-no-corinthians_kg.jpg"
-    },
-    {
-      "nome": "Gustavo Silva",
-      "posicao": "Atacante",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/gustavo-henric-da-silva-no-corinthians_gg.jpg"
     },
     {
       "nome": "Pedro Henrique",
