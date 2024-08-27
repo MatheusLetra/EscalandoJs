@@ -86,6 +86,11 @@
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/charles-rigon-matos-no-corinthians_7g.jpg"
     },
     {
+      "nome": "José Martínez",
+      "posicao": "Volante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/jose-andres-martinez-torres-no-corinthians_tg.jpg"
+    },
+    {
       "nome": "Maycon",
       "posicao": "Volante",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/maycon-de-andrade-barberan-no-corinthians_8g.jpg"
@@ -119,15 +124,16 @@
       "nome": "Rodrigo Garro",
       "posicao": "Meia",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/rodrigo-garro-no-corinthians_sg.jpg"
-    },{
-      "nome": "Arthur Sousa",
-      "posicao": "Atacante",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/arthur-sousa-araujo-no-corinthians_ag.jpg"
     },
     {
       "nome": "Giovane",
       "posicao": "Atacante",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/giovane-santana-do-nascimento-no-corinthians_kg.jpg"
+    },
+    {
+      "nome": "Héctor Hernandez",
+      "posicao": "Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/hector-jose-hernandez-marrero-no-corinthians_wg.jpg"
     },
     {
       "nome": "Pedro Henrique",
@@ -153,11 +159,6 @@
       "nome": "Talles Magno",
       "posicao": "Atacante",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/talles-magno-bacelar-martins-no-corinthians_pg.jpg"
-    },
-    {
-      "nome": "Wesley",
-      "posicao": "Atacante",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/wesley-gassova-ribeiro-teixeira-no-corinthians_fg.jpg"
     },
     {
       "nome": "Yuri Alberto",
