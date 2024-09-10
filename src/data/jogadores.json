@@ -106,11 +106,6 @@
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/ryan-gustavo-de-lima-no-corinthians_10g.jpg"
     },
     {
-      "nome": "Guilherme Biro",
-      "posicao": "Meia",
-      "foto": "https://cdn.meutimao.com.br/_upload/jogador/guilherme-sucigan-mafra-cunha-no-corinthians_sg.jpg"
-    },
-    {
       "nome": "Igor Coronado",
       "posicao": "Meia",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/igor-caique-coronado-no-corinthians_ug.jpg"
@@ -124,6 +119,11 @@
       "nome": "Rodrigo Garro",
       "posicao": "Meia",
       "foto": "https://cdn.meutimao.com.br/_upload/jogador/rodrigo-garro-no-corinthians_sg.jpg"
+    },
+    {
+      "nome": "Andre Carillo",
+      "posicao": "Meia Atacante",
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/andre-martin-carrillo-diaz-no-corinthians_2g.jpg"
     },
     {
       "nome": "Giovane",
@@ -168,7 +168,7 @@
     {
       "nome": "Memphis Depay",
       "posicao": "Atacante",
-      "foto": "https://conteudo.imguol.com.br/c/esporte/12/2024/09/03/memphis-depay-atacante-da-selecao-holandesa-1725413723222_v2_300x400.jpg"
+      "foto": "https://cdn.meutimao.com.br/_upload/jogador/memphis-depay-no-corinthians_ig.jpg"
     }
   ]
 }
